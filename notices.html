@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>सूचना फलक — श्री चिन्मय पादुका महोत्सव (वर्ष ५३ वे) | चिन्मय पादुका संचारेश्वर ट्रस्ट</title>
+<meta name="description" content="श्री चिन्मय पादुका महोत्सव (वर्ष ५३ वे), १४ ते २० नोव्हेंबर २०२६ — कार्यक्रम पत्रिका, दैनंदिन कार्यक्रम व पोस्टर्स. मुक्तेश्वर आश्रम, मुलुंड (प.), मुंबई.">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@600;700&family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --maroon:#7A1F2B; --maroon-dark:#5E1620; --gold:#E7A234; --gold-deep:#C9962C;
+    --ivory:#FBF6EE; --rose-tint:#F3E4E0; --ink:#2B2320; --ink-soft:#6b5f57;
+    --radius:14px; --shadow:0 8px 26px rgba(43,35,32,0.12);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;font-family:'Noto Sans Devanagari','Inter','Segoe UI',Arial,sans-serif;background:var(--ivory);color:var(--ink);line-height:1.7;}
+  h1,h2,h3{font-family:'Noto Serif Devanagari',Georgia,serif;color:var(--maroon-dark);margin:0 0 .5em;line-height:1.35;}
+  a{color:var(--maroon);}
+  .container{max-width:1120px;margin:0 auto;padding:0 20px;}
+
+  /* ---------- Header ---------- */
+  header{background:var(--maroon-dark);padding:14px 0;position:sticky;top:0;z-index:50;box-shadow:0 2px 12px rgba(0,0,0,.25);}
+  header .container{display:flex;align-items:center;justify-content:space-between;gap:12px;}
+  .brand{color:#f2e6d8;font-weight:700;font-size:1.02rem;}
+  .back-link{color:var(--gold);font-weight:700;font-size:.9rem;white-space:nowrap;text-decoration:none;}
+  .back-link:hover{text-decoration:underline;}
+
+  /* ---------- Hero ---------- */
+  .page-hero{
+    position:relative;overflow:hidden;text-align:center;color:#fff;
+    padding:58px 20px 64px;
+    background:
+      radial-gradient(circle at 15% 20%, rgba(231,162,52,.28), transparent 42%),
+      radial-gradient(circle at 85% 80%, rgba(231,162,52,.22), transparent 45%),
+      linear-gradient(135deg, var(--maroon), var(--maroon-dark));
+  }
+  .page-hero::before,.page-hero::after{
+    content:"";position:absolute;left:0;right:0;height:10px;
+    background:repeating-linear-gradient(90deg, var(--gold) 0 14px, transparent 14px 22px);opacity:.85;
+  }
+  .page-hero::before{top:0;} .page-hero::after{bottom:0;}
+  .page-hero .eyebrow{color:var(--gold);font-size:.85rem;letter-spacing:2px;font-weight:700;text-transform:uppercase;margin-bottom:10px;}
+  .page-hero h1{color:#fff;font-size:clamp(1.6rem,4.6vw,2.7rem);margin-bottom:6px;text-shadow:0 2px 10px rgba(0,0,0,.3);}
+  .page-hero .sub{color:#f7e6c6;font-size:clamp(1rem,2.6vw,1.2rem);font-weight:600;margin-bottom:18px;}
+  .hero-chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:6px;}
+  .chip{
+    background:rgba(255,255,255,.12);border:1px solid rgba(231,162,52,.6);color:#fff;
+    padding:8px 18px;border-radius:999px;font-size:.92rem;backdrop-filter:blur(4px);
+  }
+  .chip b{color:var(--gold);}
+
+  /* ---------- Sections ---------- */
+  main{padding:20px 0 70px;}
+  .section{padding-top:46px;}
+  .section-head{text-align:center;margin-bottom:28px;}
+  .section-head .tag{color:var(--maroon);font-size:.8rem;letter-spacing:2px;font-weight:700;text-transform:uppercase;}
+  .section-head h2{font-size:clamp(1.4rem,3.4vw,1.9rem);margin-bottom:6px;}
+  .section-head .divider{display:flex;align-items:center;justify-content:center;gap:10px;color:var(--gold-deep);}
+  .section-head .divider::before,.section-head .divider::after{content:"";width:60px;height:2px;background:linear-gradient(90deg,transparent,var(--gold));}
+  .section-head .divider::after{transform:scaleX(-1);}
+  .section-head p{color:var(--ink-soft);max-width:620px;margin:8px auto 0;font-size:.95rem;}
+
+  /* ---------- Pamphlet (2 pages) ---------- */
+  .pamphlet-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr));gap:22px;}
+  .frame{
+    background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;
+    border:1px solid rgba(201,150,44,.35);transition:transform .2s ease, box-shadow .2s ease;
+  }
+  .frame:hover{transform:translateY(-4px);box-shadow:0 14px 34px rgba(43,35,32,.18);}
+  .frame .pic{position:relative;cursor:zoom-in;background:var(--rose-tint);}
+  .frame .pic img{display:block;width:100%;height:auto;}
+  .frame .zoom-hint{
+    position:absolute;right:10px;top:10px;background:rgba(94,22,32,.88);color:#fff;
+    font-size:.78rem;padding:5px 12px;border-radius:999px;pointer-events:none;
+  }
+  .frame figcaption{padding:12px 16px;text-align:center;font-weight:700;color:var(--maroon-dark);font-size:.95rem;}
+  figure{margin:0;}
+
+  /* ---------- Day-by-day at a glance ---------- */
+  .glance-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;}
+  .glance{
+    position:relative;background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);
+    padding:16px 18px 16px;border-top:4px solid var(--gold);display:flex;flex-direction:column;gap:6px;
+  }
+  .glance .when{display:flex;align-items:center;gap:12px;padding-right:56px;}
+  .date-chip{
+    min-width:56px;text-align:center;background:linear-gradient(160deg,var(--maroon),var(--maroon-dark));
+    color:#fff;border-radius:10px;padding:6px 8px;line-height:1.1;
+  }
+  .date-chip .d{display:block;font-family:'Noto Serif Devanagari',serif;font-size:1.45rem;font-weight:700;}
+  .date-chip .m{display:block;font-size:.7rem;color:var(--gold);letter-spacing:.5px;}
+  .glance .day{font-weight:700;color:var(--maroon-dark);}
+  .glance .time{font-size:.8rem;color:var(--ink-soft);font-weight:600;}
+  .glance h3{font-size:1rem;margin:4px 0 0;}
+  .glance p{margin:0;font-size:.9rem;color:var(--ink);}
+  .glance .more{margin-top:auto;padding-top:6px;font-size:.85rem;font-weight:700;text-decoration:none;color:var(--maroon);}
+  .glance .more:hover{text-decoration:underline;}
+  .status{
+    position:absolute;top:12px;right:12px;font-size:.72rem;font-weight:700;padding:3px 10px;border-radius:999px;display:none;
+  }
+  .is-today{border-top-color:var(--maroon);box-shadow:0 0 0 2px var(--gold),var(--shadow);}
+  .is-today .status{display:inline-block;background:var(--gold);color:var(--maroon-dark);}
+  .is-past .status{display:inline-block;background:var(--rose-tint);color:var(--ink-soft);}
+  .glance.is-past{opacity:.82;}
+
+  /* ---------- Posters ---------- */
+  .poster-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:24px;}
+  .poster{
+    position:relative;background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;
+    border:1px solid rgba(201,150,44,.35);display:flex;flex-direction:column;transition:transform .2s ease, box-shadow .2s ease;
+  }
+  .poster:hover{transform:translateY(-5px);box-shadow:0 16px 36px rgba(43,35,32,.2);}
+  .poster .ribbon{
+    background:linear-gradient(90deg,var(--maroon-dark),var(--maroon));color:#fff;padding:10px 16px;
+    display:flex;align-items:center;justify-content:space-between;gap:10px;
+  }
+  .poster .ribbon .rd{font-family:'Noto Serif Devanagari',serif;font-weight:700;font-size:1.02rem;}
+  .poster .ribbon .rd small{color:var(--gold);font-family:'Noto Sans Devanagari',sans-serif;font-weight:600;font-size:.8rem;margin-left:6px;}
+  .poster .status{position:static;}
+  .poster .pic{position:relative;cursor:zoom-in;background:var(--rose-tint);}
+  .poster .pic img{display:block;width:100%;height:auto;}
+  .poster .zoom-hint{position:absolute;right:10px;top:10px;background:rgba(94,22,32,.88);color:#fff;font-size:.78rem;padding:5px 12px;border-radius:999px;pointer-events:none;}
+  .poster .body{padding:14px 16px 18px;}
+  .poster h3{font-size:1.02rem;margin-bottom:4px;}
+  .poster .meta{font-size:.86rem;color:var(--ink-soft);margin:0;}
+  .poster.is-today{box-shadow:0 0 0 3px var(--gold),var(--shadow);}
+
+  .note-box{
+    margin-top:34px;background:#fff;border-left:5px solid var(--gold);border-radius:10px;box-shadow:var(--shadow);
+    padding:16px 22px;font-size:.93rem;color:var(--ink);
+  }
+  .note-box b{color:var(--maroon-dark);}
+
+  /* ---------- Lightbox ---------- */
+  #lightbox{
+    position:fixed;inset:0;background:rgba(20,8,10,.92);z-index:200;display:none;
+    align-items:center;justify-content:center;padding:20px;
+  }
+  #lightbox.open{display:flex;}
+  #lightbox img{max-width:100%;max-height:100%;border-radius:8px;box-shadow:0 10px 40px rgba(0,0,0,.6);}
+  #lightbox .close{
+    position:absolute;top:14px;right:18px;width:44px;height:44px;border-radius:50%;
+    border:2px solid var(--gold);background:var(--maroon-dark);color:#fff;font-size:1.4rem;cursor:pointer;
+  }
+
+  footer{background:var(--maroon-dark);color:#f2e6d8;text-align:center;padding:24px 20px;font-size:.84rem;}
+  footer a{color:var(--gold);}
+
+  .music-fab{
+    position:fixed;bottom:22px;right:22px;z-index:60;width:52px;height:52px;border-radius:50%;
+    background:var(--maroon-dark);color:#fff;border:2px solid var(--gold);font-size:1.3rem;cursor:pointer;
+    box-shadow:var(--shadow);display:flex;align-items:center;justify-content:center;
+  }
+  .music-fab:hover{background:var(--maroon);}
+
+  /* ---------- Image protection ---------- */
+  img{
+    -webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;
+    -webkit-user-drag:none;user-drag:none;-webkit-touch-callout:none;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="brand">🪷 चिन्मय पादुका संचारेश्वर ट्रस्ट</div>
+    <a class="back-link" href="index.html">← मुख्यपृष्ठावर परत जा</a>
+  </div>
+</header>
+
+<div class="page-hero">
+  <div class="eyebrow">सूचना फलक · Notice Board</div>
+  <h1>श्री चिन्मय पादुका महोत्सव</h1>
+  <div class="sub">वर्ष ५३ वे — सर्वांना सस्नेह निमंत्रण</div>
+  <div class="hero-chips">
+    <span class="chip">📅 <b>शनिवार १४ नोव्हेंबर</b> ते <b>शुक्रवार २० नोव्हेंबर २०२६</b></span>
+    <span class="chip">📍 मुक्तेश्वर आश्रम, वालजी लद्दा रोड, मुलुंड (प.), मुंबई – ४०० ०८०</span>
+  </div>
+</div>
+
+<main>
+  <div class="container">
+
+    <!-- ============ 1 & 2 : कार्यक्रम पत्रिका ============ -->
+    <section class="section" id="patrika">
+      <div class="section-head">
+        <div class="tag">Programme Pamphlet</div>
+        <h2>कार्यक्रम पत्रिका — २०२६</h2>
+        <div class="divider">🪷</div>
+        <p>महोत्सवाची संपूर्ण पत्रिका. मोठे करून वाचण्यासाठी चित्रावर क्लिक/टॅप करा.</p>
+      </div>
+      <div class="pamphlet-grid">
+        <figure class="frame">
+          <div class="pic zoomable"><img src="assets/notice-pamphlet-1.jpg" alt="श्री चिन्मय पादुका महोत्सव — कार्यक्रम पत्रिका, पान १"><span class="zoom-hint">🔍 मोठे करा</span></div>
+          <figcaption>पत्रिका — पान १</figcaption>
+        </figure>
+        <figure class="frame">
+          <div class="pic zoomable"><img src="assets/notice-pamphlet-2.jpg" alt="श्री चिन्मय पादुका महोत्सव — कार्यक्रम पत्रिका, पान २ (दैनिक वेळापत्रक)"><span class="zoom-hint">🔍 मोठे करा</span></div>
+          <figcaption>पत्रिका — पान २ (दैनिक वेळापत्रक)</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ दिनक्रम एका दृष्टिक्षेपात ============ -->
+    <section class="section" id="dinkram">
+      <div class="section-head">
+        <div class="tag">Schedule at a Glance</div>
+        <h2>सात दिवसांचे कार्यक्रम — एका दृष्टिक्षेपात</h2>
+        <div class="divider">🪷</div>
+      </div>
+      <div class="glance-grid">
+
+        <article class="glance" data-date="2026-11-14">
+          <span class="status"></span>
+          <div class="when"><div class="date-chip"><span class="d">१४</span><span class="m">नोव्हें.</span></div><div><div class="day">शनिवार</div><div class="time">महोत्सवाचा शुभारंभ</div></div></div>
+          <h3>रुद्राभिषेक व पालखी मिरवणूक</h3>
+          <p>रुद्राभिषेक, सामुदायिक उपासना, तीर्थ-महाप्रसाद; श्रींच्या प्रतिमेची भव्य पालखी मिरवणूक; अनुष्ठानास प्रारंभ.</p>
+          <a class="more" href="#patrika">वेळा — पत्रिका पाहा ↑</a>
+        </article>
+
+        <article class="glance" data-date="2026-11-15">
+          <span class="status"></span>
+          <div class="when"><div class="date-chip"><span class="d">१५</span><span class="m">नोव्हें.</span></div><div><div class="day">रविवार</div><div class="time">सकाळ · रात्री ८ ते १०</div></div></div>
+          <h3>रक्तदान महायज्ञ व आरोग्य सेवा</h3>
+          <p>रक्तदान महायज्ञ; महिला साधकांसाठी मॅमोग्राफी टेस्ट (आर्थिक दुर्बल व्यक्तींसाठी); रात्री भक्तिगीतांतील अध्यात्म.</p>
+          <a class="more" href="#patrika">वेळा — पत्रिका पाहा ↑</a>
+        </article>
+
+        <article class="glance" data-date="2026-11-16">
+          <span class="status"></span>
+          <div class="when"><div class="date-chip"><span class="d">१६</span><span class="m">नोव्हें.</span></div><div><div class="day">सोमवार</div><div class="time">रात्री ८ ते १०</div></div></div>
+          <h3>प्रवचन — शरणागती</h3>
+          <p>श्री. आमोद रिसबूड, ठाणे — ज्ञानेश्वरीतील ओवीच्या आधारे.</p>
+          <a class="more" href="#p16">पोस्टर पाहा ↓</a>
+        </article>
+
+        <article class="glance" data-date="2026-11-17">
+          <span class="status"></span>
+          <div class="when"><div class="date-chip"><span class="d">१७</span><span class="m">नोव्हें.</span></div><div><div class="day">मंगळवार</div><div class="time">सायंकाळी ८ ते १०</div></div></div>
+          <h3>भव्य सुश्राव्य कीर्तन सेवा</h3>
+          <p>सौ. वीणा नितीन लवाटे (बदलापूर) — विषय: चाफळचे (सातारा) ऐतिहासिक राम मंदिर.</p>
+          <a class="more" href="#p17">पोस्टर पाहा ↓</a>
+        </article>
+
+        <article class="glance" data-date="2026-11-18">
+          <span class="status"></span>
+          <div class="when"><div class="date-chip"><span class="d">१८</span><span class="m">नोव्हें.</span></div><div><div class="day">बुधवार</div><div class="time">सायंकाळी ८:००</div></div></div>
+          <h3>फॅमिली डॉक्टरची गरज आणि आरोग्य प्रबोधन</h3>
+          <p>संवादक: श्री. दिलीप जोशी · मार्गदर्शक: डॉ. श्री. दि. नाईक.</p>
+          <a class="more" href="#p18">पोस्टर पाहा ↓</a>
+        </article>
+
+        <article class="glance" data-date="2026-11-19">
+          <span class="status"></span>
+          <div class="when"><div class="date-chip"><span class="d">१९</span><span class="m">नोव्हें.</span></div><div><div class="day">गुरुवार</div><div class="time">सायंकाळी ८:००</div></div></div>
+          <h3>विशेष व्याख्यान — अल निनोचे संकट आणि दुष्काळाचे सावट</h3>
+          <p>व्याख्याते: मा. प्रदीप नायक (पर्यावरण व खगोल अभ्यासक).</p>
+          <a class="more" href="#p19">पोस्टर पाहा ↓</a>
+        </article>
+
+        <article class="glance" data-date="2026-11-20">
+          <span class="status"></span>
+          <div class="when"><div class="date-chip"><span class="d">२०</span><span class="m">नोव्हें.</span></div><div><div class="day">शुक्रवार</div><div class="time">महोत्सवाची सांगता</div></div></div>
+          <h3>सांगता समारंभ</h3>
+          <p>रुद्राभिषेक, सामुदायिक उपासना, पवित्र सिंचन, महाप्रसाद, पालखी मिरवणूक; सायंकाळी सांगता समारंभ.</p>
+          <a class="more" href="#p20">पोस्टर पाहा ↓</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============ पोस्टर्स (तारखेनुसार) ============ -->
+    <section class="section" id="posters">
+      <div class="section-head">
+        <div class="tag">Daily Programme Posters</div>
+        <h2>दैनंदिन कार्यक्रम — पोस्टर्स</h2>
+        <div class="divider">🪷</div>
+        <p>तारखेनुसार क्रमाने. पोस्टर मोठे करून पाहण्यासाठी त्यावर क्लिक/टॅप करा.</p>
+      </div>
+      <div class="poster-grid">
+
+        <article class="poster" id="p16" data-date="2026-11-16">
+          <div class="ribbon"><span class="rd">सोमवार, १६ नोव्हेंबर <small>रात्री ८ ते १०</small></span><span class="status"></span></div>
+          <div class="pic zoomable"><img loading="lazy" src="assets/notice-16nov.jpg" alt="प्रवचन — श्री. आमोद रिसबूड, ठाणे — विषय: शरणागती (१६ नोव्हेंबर)"><span class="zoom-hint">🔍 मोठे करा</span></div>
+          <div class="body"><h3>प्रवचन — शरणागती</h3><p class="meta">श्री. आमोद रिसबूड, ठाणे · मुक्तेश्वर आश्रम, मुलुंड (प.)</p></div>
+        </article>
+
+        <article class="poster" id="p17" data-date="2026-11-17">
+          <div class="ribbon"><span class="rd">मंगळवार, १७ नोव्हेंबर <small>सायंकाळी ८ ते १०</small></span><span class="status"></span></div>
+          <div class="pic zoomable"><img loading="lazy" src="assets/notice-17nov.jpg" alt="भव्य सुश्राव्य कीर्तन सेवा — सौ. वीणा नितीन लवाटे (बदलापूर) (१७ नोव्हेंबर)"><span class="zoom-hint">🔍 मोठे करा</span></div>
+          <div class="body"><h3>भव्य सुश्राव्य कीर्तन सेवा</h3><p class="meta">सौ. वीणा नितीन लवाटे (बदलापूर) · मुक्तेश्वर आश्रम, मुलुंड (प.)</p></div>
+        </article>
+
+        <article class="poster" id="p18" data-date="2026-11-18">
+          <div class="ribbon"><span class="rd">बुधवार, १८ नोव्हेंबर <small>सायंकाळी ८:००</small></span><span class="status"></span></div>
+          <div class="pic zoomable"><img loading="lazy" src="assets/notice-18nov.jpg" alt="फॅमिली डॉक्टरची गरज आणि आरोग्य प्रबोधन (१८ नोव्हेंबर)"><span class="zoom-hint">🔍 मोठे करा</span></div>
+          <div class="body"><h3>फॅमिली डॉक्टरची गरज आणि आरोग्य प्रबोधन</h3><p class="meta">श्री. दिलीप जोशी · डॉ. श्री. दि. नाईक · मुक्तेश्वर आश्रम, मुलुंड (प.)</p></div>
+        </article>
+
+        <article class="poster" id="p19" data-date="2026-11-19">
+          <div class="ribbon"><span class="rd">गुरुवार, १९ नोव्हेंबर <small>सायंकाळी ८:००</small></span><span class="status"></span></div>
+          <div class="pic zoomable"><img loading="lazy" src="assets/notice-19nov.jpg" alt="विशेष व्याख्यान — अल निनोचे संकट आणि दुष्काळाचे सावट (१९ नोव्हेंबर)"><span class="zoom-hint">🔍 मोठे करा</span></div>
+          <div class="body"><h3>अल निनोचे संकट आणि दुष्काळाचे सावट!</h3><p class="meta">मा. प्रदीप नायक · प्रवेश सर्वांसाठी खुला व विनामूल्य · मुक्तेश्वर आश्रम, मुलुंड (प.)</p></div>
+        </article>
+
+        <article class="poster" id="p20" data-date="2026-11-20">
+          <div class="ribbon"><span class="rd">शुक्रवार, २० नोव्हेंबर <small>सायंकाळी</small></span><span class="status"></span></div>
+          <div class="pic zoomable"><img loading="lazy" src="assets/notice-20nov.jpg" alt="सांगता समारंभ — प्रमुख पाहुण्यांचा परिचय, सन्मान व विशेष आवाहन (२० नोव्हेंबर)"><span class="zoom-hint">🔍 मोठे करा</span></div>
+          <div class="body"><h3>सांगता समारंभ</h3><p class="meta">सार्वजनिक शिक्षण संस्था, डॉ. विवेक देशपांडे सभागृह, मुलुंड (प.) · प्रवेश सर्वांसाठी खुला व विनामूल्य</p></div>
+        </article>
+
+      </div>
+
+      <div class="note-box">
+        🙏 <b>सर्व भाविक भक्तांना उपस्थित राहण्याचे भावपूर्ण आवाहन.</b><br>
+        संपर्क: <a href="tel:+918097667977">८०९७६६७९७७</a> &nbsp;|&nbsp; || श्री गुरुदेव दत्त ||
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<!-- Lightbox -->
+<div id="lightbox" aria-hidden="true">
+  <button type="button" class="close" id="lbClose" aria-label="बंद करा">✕</button>
+  <img id="lbImg" src="" alt="">
+</div>
+
+<footer>
+  चिन्मय पादुका संचारेश्वर ट्रस्ट, मुलुंड (पश्चिम), मुंबई &nbsp;|&nbsp; <a href="index.html">मुख्यपृष्ठ</a> &nbsp;|&nbsp; <a href="tel:+918097667977">8097667977</a>
+</footer>
+
+<!-- Background devotional music (same track as the homepage) -->
+<audio id="noticesAudio" loop preload="none">
+  <source src="assets/bg-audio.mp3" type="audio/mpeg">
+</audio>
+<button type="button" class="music-fab" id="noticesMusicBtn" title="Toggle background music">🔇</button>
+
+<script>
+  // ============ Music toggle ============
+  const noticesAudio = document.getElementById('noticesAudio');
+  const noticesMusicBtn = document.getElementById('noticesMusicBtn');
+  let noticesPlaying = false;
+
+  function tryPlayNoticesAudio(){
+    noticesAudio.play().then(() => {
+      noticesPlaying = true; noticesMusicBtn.textContent = '🔊';
+    }).catch(() => {
+      noticesPlaying = false; noticesMusicBtn.textContent = '🔇';
+    });
+  }
+  noticesMusicBtn.addEventListener('click', () => {
+    if (noticesPlaying) { noticesAudio.pause(); noticesPlaying = false; noticesMusicBtn.textContent = '🔇'; }
+    else { tryPlayNoticesAudio(); }
+  });
+  tryPlayNoticesAudio();
+
+  // ============ "आज" / "संपन्न" labels (based on the visitor's date) ============
+  (function markDays(){
+    const t = new Date();
+    const today = t.getFullYear() + '-' + String(t.getMonth()+1).padStart(2,'0') + '-' + String(t.getDate()).padStart(2,'0');
+    document.querySelectorAll('[data-date]').forEach((el) => {
+      const d = el.getAttribute('data-date');
+      const s = el.querySelector('.status');
+      if (d === today) { el.classList.add('is-today'); if (s) s.textContent = '● आज'; }
+      else if (d < today) { el.classList.add('is-past'); if (s) s.textContent = 'संपन्न'; }
+    });
+  })();
+
+  // ============ Lightbox (tap/click a pamphlet or poster to enlarge) ============
+  const lb = document.getElementById('lightbox');
+  const lbImg = document.getElementById('lbImg');
+  function openLb(src, alt){ lbImg.src = src; lbImg.alt = alt || ''; lb.classList.add('open'); lb.setAttribute('aria-hidden','false'); document.body.style.overflow = 'hidden'; }
+  function closeLb(){ lb.classList.remove('open'); lb.setAttribute('aria-hidden','true'); lbImg.src = ''; document.body.style.overflow = ''; }
+  document.querySelectorAll('.zoomable').forEach((box) => {
+    box.addEventListener('click', () => { const im = box.querySelector('img'); openLb(im.src, im.alt); });
+  });
+  lb.addEventListener('click', (e) => { if (e.target !== lbImg) closeLb(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeLb(); });
+
+  // ============ IMAGE PROTECTION (deterrent, not foolproof) ============
+  document.addEventListener('contextmenu', (e) => { if (e.target.tagName === 'IMG') e.preventDefault(); });
+  document.addEventListener('dragstart', (e) => { if (e.target.tagName === 'IMG') e.preventDefault(); });
+</script>
+
+</body>
+</html>
